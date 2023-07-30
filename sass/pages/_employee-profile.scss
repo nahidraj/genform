@@ -1,0 +1,23 @@
+@import "../variable/bgcolor";
+@import "../variable/textcolor";
+
+.employee-profile-page {
+  .view-profile {
+    .contact-info {
+      padding: 0;
+
+      ul {
+        li {
+          padding-left: 0;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  .employee-profile-search{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid $lightDarkColor;
+  }
+}

@@ -1,0 +1,73 @@
+@import "../variable/bgcolor";
+@import "../variable/textcolor";
+
+.add-employee-form {
+  .employee-block {
+    width: 100%;
+    border: 1px solid #949494;
+    position: relative;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+
+    .label-text {
+      position: absolute;
+      top: -20px;
+      left: 14px;
+      font-size: 18px;
+      color: $black;
+      background-color: $lightColor;
+      padding: 10px 15px;
+      font-weight: 500;
+    }
+
+    .form-element {
+      textarea {
+        height: 40px;
+        border-color: $darkColor;
+      }
+    }
+  }
+
+  .submit-btn {
+    background-color: $themeColorThree;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 0;
+    color: $lightColor;
+    border-radius: 3px;
+  }
+}
+
+
+.employee-other-info {
+  background-color: #f5f5f5;
+  border-top: 3px solid #777EDD;
+  border-radius: 5px;
+
+  tbody {
+    border-top: 0 !important;
+  }
+
+  thead {
+    background-color: $themeColorFive;
+    color: $lightColor;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  h5 {
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 14px;
+    padding: 14px 24px;
+  }
+
+  .main-info {
+    padding: 24px;
+  }
+}

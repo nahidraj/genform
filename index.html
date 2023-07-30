@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADMIN PANEL</title>
+  <!-- google font start -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- google font end -->
+  <script src="https://kit.fontawesome.com/3f4c7459cb.js" crossorigin="anonymous"></script>
+  <!-- css file start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.8.2/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/smooth-scrollbar.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- css file end -->
+</head>
+
+<body class="sidebar">
+  <!-- sidebar navigation start -->
+  <section class="dashboard">
+    <div class="toggle-overlay d-block d-lg-none"></div>
+    <div class="navigation-body shadow">
+      <div class="close-mobile-menu d-block d-lg-none">
+        <i class="bi bi-arrow-left"></i>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img class="main-logo" src="images/logo.png" alt="logo" width="130">
+          <img class="mini-logo d-none" src="images/mini-logo.png" alt="mini-logo">
+        </a>
+      </div>
+      <div class="navigation">
+        <div class="top-heading title">
+          <h4>Navigation</h4>
+        </div>
+        <div class="main-menus">
+          <ul id="accordion" class="accordion">
+            <li class="active">
+              <div class="link">
+                <a href="index.html" class="ps-0">
+                  <span class="icon"><i class="bi bi-house-door"></i></span>
+                  <span class="title">
+                    Dashboard
+                    <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
+                  </span>
+                </a>
+              </div>
+              <!-- <ul class="submenu title">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="far fa-circle"></i> Level Two Menu
+                        <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body third-level">
+                        <ul>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                          <div class="accordion accordion-flush" id="accordionFlushExample2">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button fourth-level collapsed shadow-none" type="button"
+                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                  aria-controls="flush-collapseTwo">
+                                  <i class="far fa-circle"></i> Level Three Menu
+                                  <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse fourth-level-child"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">
+                                  <ul>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul> -->
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fas fa-arrows-alt" aria-hidden="true"></i></span>
+                <span class="title">
+                  Master Setup
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="link">
+                <a href="employees.html" class="ps-0">
+                  <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                  <span class="title">
+                    Employees
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <a href="employee-profile.html" class="ps-0">
+                  <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                  <span class="title">
+                    Employee Profile
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fa fa-windows" aria-hidden="true"></i></span>
+                <span class="title">
+                  Gen Form
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <li><a href="form-list.html"><i class="fas fa-angle-right"></i> Sailor</a></li>
+                <li><a href="form-list.html"><i class="fas fa-angle-right"></i> Officer</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                <span class="title">
+                  Admin
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fa fa-windows" aria-hidden="true"></i></span>
+                <span class="title">
+                  System Settings
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- collapsed navigation start -->
+      <div class="collapsed-navigation d-none">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bi bi-house-door"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+
+                <li class="mini-child-menu">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingthree">
+                        <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapsethree" aria-expanded="false"
+                          aria-controls="flush-collapsethree">
+                          <i class="far fa-circle level-icon"></i>
+                          Level Two Menu
+                          <i class="fa fa-chevron-up float-end"></i>
+                        </button>
+                      </h2>
+                      <div id="flush-collapsethree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingthree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul class="mini-child-inner-menu">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu One</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Two</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Three</a></li>
+
+
+                            <li class="mini-child-menu mini-fourth-level-button">
+                              <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed shadow-none" type="button"
+                                      data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
+                                      aria-expanded="false" aria-controls="flush-collapsefour">
+                                      <i class="bi bi-circle level-icon"></i>
+                                      Level Two Menu
+                                      <i class="fa fa-chevron-up float-end"></i>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                      <ul class="mini-child-inner-menu fourth-level-inner-child-menu">
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> Menu One</a></li>
+                                        <li><a href="inde"><i class="fas fa-chevron-right"></i> Menu Two</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Three</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+
+
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-layout-sidebar"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Page layouts</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-bars"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Navigation</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-box"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Basic Components</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-layer-group"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Widget</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cog spin"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Animations</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-command"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Icons</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-clipboard-check-fill"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Components</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-pen-alt"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Picker</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-shield-check"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Masking</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-quidditch"></i>
+            </a>
+
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-file-spreadsheet"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-bar-chart-steps"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-people"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cut"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-cloud-upload"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- collapsed navigation end-->
+      <div class="branding text-center">
+        <h6 class="full-brand">
+          Developed By-
+          <a href="https://www.nogorsolutions.com/" target="_blank" class="d-block">Nogor Solutions Limited</a>
+        </h6>
+        <div class="short-brand d-none">
+          <img src="images/nogo-fevicon.png" alt="nogo-fevicon">
+        </div>
+      </div>
+    </div>
+    <!-- main content start -->
+    <div class="main-content-body">
+      <!-- top header start -->
+      <div class="top-header">
+        <div class="topbar">
+          <div class="row">
+            <div class="col-lg-6 left-info-col align-self-center">
+              <div class="left-info d-flex">
+                <div class="logo">
+                  <a href=""><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="mobile-control-bar d-block d-lg-none">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <div class="control-bar d-none d-lg-block">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <div class="expand">
+                  <i class="fas fa-arrows-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 right-info-col">
+              <div class="right-info header-right-info text-end d-flex justify-content-end align-items-center">
+                <div class="notification dropdown">
+                  <div class="notifi-icon dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="far fa-bell bell"></i>
+                    <sup>3</sup>
+                  </div>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="top d-flex justify-content-between">
+                      <h4>Notification</h4>
+                      <span>Clear All</span>
+                    </div>
+                    <div class="middle">
+                      <div class="msg-box d-flex">
+                        <div class="icon">
+                          <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-2">
+                          <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-3">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-4">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-5">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-6">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btm text-center">
+                      <a href="#">Show All Notification <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </ul>
+                </div>
+                <div class="messages dropdown">
+                  <div class="notifi-mess dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="far fa-comment-alt bell mess"></i>
+                    <sup>9</sup>
+                  </div>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="top d-flex justify-content-between">
+                      <h4>MESSAGES</h4>
+                      <span>Clear All</span>
+                    </div>
+                    <div class="middle">
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btm text-center">
+                      <a href="#">Show All Messages <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </ul>
+                </div>
+                <div class="profile dropdown">
+                  <ul class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="profile-image">
+                      <img src="images/profile.jpg" alt="profile">
+                    </li>
+                    <li>John Doe <i class="fas fa-angle-down"></i></li>
+                  </ul>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="profile.html"><i class="far fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i> My Messages</a></li>
+                    <li><a href="#"><i class="fas fa-lock"></i> Lock Screen</a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- navbar part start -->
+        <nav class="top-navbar">
+          <ul>
+            <li>
+              <a href="">
+                <i class="fa-brands fa-windows"></i>
+                Dashboard
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-layer-group"></i>
+                Apps
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-border-all"></i>
+                Layout
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-regular fa-circle-user"></i>
+                Authentication
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-regular fa-file-lines"></i>
+                Pages
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-monument"></i>
+                Landing
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-cookie-bite"></i>
+                Base Ui
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li>
+                  <a href="">
+                    Ecommerce
+                    <span class="float-end"><i class="fa-solid fa-angle-right"></i></span>
+                  </a>
+                  <ul>
+                    <li><a href="">Analytics</a></li>
+                    <li><a href="">CRM</a></li>
+                    <li>
+                      <a href="">
+                        Ecommerce
+                        <span class="float-end"><i class="fa-solid fa-angle-right"></i></span>
+                      </a>
+                      <ul>
+                        <li><a href="">Analytics</a></li>
+                        <li><a href="">CRM</a></li>
+                        <li><a href="">Ecommerce</a></li>
+                        <li><a href="">Crypto</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">NFT</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Crypto</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">NFT</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- breadcrumb start -->
+      <div class="bread-crumb-part">
+        <div class="row">
+          <div class="col-lg-6 small-device-dash">
+            <div class="left-title">
+              <h3>Dashboard</h3>
+            </div>
+          </div>
+          <div class="col-lg-6 small-device-breadcrumb">
+            <div class="right-info text-end">
+              <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li>Widget</li>
+                <li>Otros buscadores</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb end -->
+      <!-- content part start -->
+      <div class="content-part">
+        <div class="top-short-summery">
+          <div class="row">
+            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+              <div class="summery-item">
+                <h4>Total Accounts</h4>
+                <h3 class="counter">586,356</h3>
+                <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 30.4%</span> increase this month
+                  </li>
+                </ul>
+                <div class="circle">
+                  <i class="far fa-id-card"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+              <div class="summery-item item-2">
+                <h4>Products Sold</h4>
+                <h3 class="counter">158,356</h3>
+                <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
+                  </li>
+                </ul>
+                <div class="circle">
+                  <i class="far fa-lightbulb"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+              <div class="summery-item item-3 mb-md-0">
+                <h4>Net Profit</h4>
+                <h3 class="counter">586,356</h3>
+                <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
+                  </li>
+                </ul>
+                <div class="circle">
+                  <i class="fas fa-recycle"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+              <div class="summery-item item-4">
+                <h4>Customer Satisfaction</h4>
+                <h3><span class="counter">99</span> <span>%</span></h3>
+                <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
+                  </li>
+                </ul>
+                <div class="circle">
+                  <i class="far fa-snowflake"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-info">
+          <div class="row">
+            <div class="col-lg-12 col-xl-3 col-xxl-3">
+              <div class="info-notification">
+                <div class="title">
+                  <h4>Notifications</h4>
+                </div>
+                <div class="info-item-main">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+                      <div class="info-notify-item d-flex">
+                        <div class="icon">
+                          <i class="fab fa-think-peaks"></i>
+                        </div>
+                        <div class="text">
+                          <h4>
+                            <a href="#" class="d-block">
+                              Group lunch celebration
+                            </a>
+                            <span>Due in 2 Days</span>
+                          </h4>
+                        </div>
+                        <div class="percent">
+                          <h5>+28%</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+                      <div class="info-notify-item info-item2 d-flex">
+                        <div class="icon">
+                          <i class="fab fa-think-peaks"></i>
+                        </div>
+                        <div class="text">
+                          <h4>
+                            <a href="#" class="d-block">
+                              Group lunch celebration
+                            </a>
+                            <span>Due in 2 Days</span>
+                          </h4>
+                        </div>
+                        <div class="percent">
+                          <h5>+28%</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+                      <div class="info-notify-item info-item3 d-flex">
+                        <div class="icon">
+                          <i class="fab fa-think-peaks"></i>
+                        </div>
+                        <div class="text">
+                          <h4>
+                            <a href="#" class="d-block">
+                              Group lunch celebration
+                            </a>
+                            <span>Due in 2 Days</span>
+                          </h4>
+                        </div>
+                        <div class="percent">
+                          <h5>+28%</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+                      <div class="info-notify-item mb-0 info-item4 d-flex">
+                        <div class="icon">
+                          <i class="fab fa-think-peaks"></i>
+                        </div>
+                        <div class="text">
+                          <h4>
+                            <a href="#" class="d-block">
+                              Group lunch celebration
+                            </a>
+                            <span>Due in 2 Days</span>
+                          </h4>
+                        </div>
+                        <div class="percent">
+                          <h5>+28%</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-9 col-xxl-9">
+              <div class="projects">
+                <div class="title">
+                  <h4>Latest Projects</h4>
+                </div>
+                <div class="project-table table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Project Name</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Status</th>
+                        <th>Working Hour</th>
+                        <th>Assign To</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody style="border-top: 0;">
+                      <tr>
+                        <td>1</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released">Released</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released pending">Pending</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released in-progress">Work In Progress</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released comming">Coming soon</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released finish">Finished</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released">Released</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released pending">Pending</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released in-progress">Work In Progress</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>Adminty Admin v1</td>
+                        <td>14/05/2022</td>
+                        <td>01/01/2015</td>
+                        <td><span class="released comming">Coming soon</span></td>
+                        <td>5 Hours 20 Minutes</td>
+                        <td>Coderthemes</td>
+                        <td>
+                          <span class="delete view"><i class="fas fa-binoculars"></i></span>
+                          <span class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                          <span class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content part end -->
+    </div>
+    <!-- main content end -->
+  </section>
+  <!-- sidebar navigation end -->
+
+
+  <!-- script file start -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/smooth-scrollbar.js"></script>
+  <script src="js/script.js"></script>
+  <!-- script file  end-->
+</body>
+
+</html>

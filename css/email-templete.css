@@ -1,0 +1,159 @@
+.email-templete {
+  margin-top: 50px;
+}
+
+.email-box {
+  width: 100%;
+  min-height: 500px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.email-box .heading h4 {
+  background-color: #0b57d0;
+  padding: 14px 20px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.email-box .inner-email-box {
+  padding: 20px;
+}
+
+.email-box .inner-email-box .from p {
+  color: #222;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.email-box .inner-email-box .from span {
+  font-weight: 600;
+}
+
+.email-box .inner-email-box .to {
+  margin-top: 24px;
+}
+
+.email-box .inner-email-box .to .input-groups-to {
+  position: relative;
+}
+
+.email-box .inner-email-box .to .input-groups-to input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.email-box .inner-email-box .to .input-groups-to span {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #222;
+}
+
+.email-box .inner-email-box .to .input-groups-to button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: cornflowerblue;
+  padding: 3px 12px;
+  border-radius: 2px;
+  border: 0;
+  color: #fff;
+}
+
+.email-box .inner-email-box .to .input-groups input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.email-box .inner-email-box .to .textarea-groups {
+  position: relative;
+}
+
+.email-box .inner-email-box .to .textarea-groups textarea {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #d1d1d1;
+  padding: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+}
+
+.email-box .inner-email-box .to .textarea-groups .templete-btn {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  float: right;
+  margin-bottom: -10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 180px;
+}
+
+.email-box .inner-email-box .to .textarea-groups .form-select {
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+
+.email-box .inner-email-box .to .button-groups .sent-mail {
+  background-color: #0b57d0;
+  padding: 10px 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+
+.email-box .inner-email-box .to .button-groups .sent-mail:hover {
+  background-color: #0743a5;
+}
+
+.email-box .inner-email-box .to .button-groups .total-mail {
+  background-color: #d80a0a;
+  padding: 4px 24px;
+  height: 30px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: 0;
+  margin-top: -2px;
+}
+
+.email-box .inner-email-box .to .button-groups .attachment-btn {
+  background-color: transparent;
+  border: 0;
+}
+
+.email-box .inner-email-box .to .button-groups .attachment-btn i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  background-color: #316ed1;
+  border: 0;
+  margin-left: 15px;
+  color: #fff;
+  cursor: pointer;
+}

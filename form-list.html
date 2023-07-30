@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADMIN PANEL</title>
+  <!-- google font start -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- google font end -->
+  <script src="https://kit.fontawesome.com/3f4c7459cb.js" crossorigin="anonymous"></script>
+  <!-- css file start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.8.2/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/smooth-scrollbar.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- css file end -->
+</head>
+
+<body class="sidebar">
+  <!-- sidebar navigation start -->
+  <section class="dashboard">
+    <div class="toggle-overlay d-block d-lg-none"></div>
+    <div class="navigation-body shadow">
+      <div class="close-mobile-menu d-block d-lg-none">
+        <i class="bi bi-arrow-left"></i>
+      </div>
+      <div class="logo">
+        <a href="index.html">
+          <img class="main-logo" src="images/logo.png" alt="logo" width="130">
+          <img class="mini-logo d-none" src="images/mini-logo.png" alt="mini-logo">
+        </a>
+      </div>
+      <div class="navigation">
+        <div class="top-heading title">
+          <h4>Navigation</h4>
+        </div>
+        <div class="main-menus">
+          <ul id="accordion" class="accordion">
+            <li>
+              <div class="link">
+                <a href="index.html" class="ps-0">
+                  <span class="icon"><i class="bi bi-house-door"></i></span>
+                  <span class="title">
+                    Dashboard
+                    <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
+                  </span>
+                </a>
+              </div>
+              <!-- <ul class="submenu title">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="far fa-circle"></i> Level Two Menu
+                        <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body third-level">
+                        <ul>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                          <div class="accordion accordion-flush" id="accordionFlushExample2">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button fourth-level collapsed shadow-none" type="button"
+                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                  aria-controls="flush-collapseTwo">
+                                  <i class="far fa-circle"></i> Level Three Menu
+                                  <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse fourth-level-child"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">
+                                  <ul>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul> -->
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fas fa-arrows-alt" aria-hidden="true"></i></span>
+                <span class="title">
+                  Master Setup
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <ul>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                </ul>
+              </ul>
+            </li>
+            <li>
+              <div class="link">
+                <a href="" class="ps-0">
+                  <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                  <span class="title">
+                    Employees
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <a href="employee-profile.html" class="ps-0">
+                  <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                  <span class="title">
+                    Employee Profile
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li class="active">
+              <div class="link">
+                <span class="icon"><i class="fa fa-windows" aria-hidden="true"></i></span>
+                <span class="title">
+                  Gen Form
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <li><a href="form-list.html"><i class="fas fa-angle-right"></i> Sailor</a></li>
+                <li><a href="form-list.html"><i class="fas fa-angle-right"></i> Officer</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                <span class="title">
+                  Admin
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <span class="icon"><i class="fa fa-windows" aria-hidden="true"></i></span>
+                <span class="title">
+                  System Settings
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <ul>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- collapsed navigation start -->
+      <div class="collapsed-navigation d-none">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bi bi-house-door"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+
+                <li class="mini-child-menu">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingthree">
+                        <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapsethree" aria-expanded="false"
+                          aria-controls="flush-collapsethree">
+                          <i class="far fa-circle level-icon"></i>
+                          Level Two Menu
+                          <i class="fa fa-chevron-up float-end"></i>
+                        </button>
+                      </h2>
+                      <div id="flush-collapsethree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingthree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul class="mini-child-inner-menu">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu One</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Two</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Three</a></li>
+
+
+                            <li class="mini-child-menu mini-fourth-level-button">
+                              <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed shadow-none" type="button"
+                                      data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
+                                      aria-expanded="false" aria-controls="flush-collapsefour">
+                                      <i class="bi bi-circle level-icon"></i>
+                                      Level Two Menu
+                                      <i class="fa fa-chevron-up float-end"></i>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                      <ul class="mini-child-inner-menu fourth-level-inner-child-menu">
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> Menu One</a></li>
+                                        <li><a href="inde"><i class="fas fa-chevron-right"></i> Menu Two</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right"></i> Menu Three</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                            </li>
+
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+
+
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-layout-sidebar"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Page layouts</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-bars"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Navigation</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-box"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Basic Components</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-layer-group"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Widget</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cog spin"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Animations</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-command"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Icons</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-clipboard-check-fill"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Components</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-pen-alt"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Picker</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-shield-check"></i>
+            </a>
+            <div class="mini-dropdown-menu">
+              <ul>
+                <li class="menu-title"><a href="index.html" class="mini-dashboard">Form Masking</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Photoshop</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Html</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> css</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-quidditch"></i>
+            </a>
+
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-file-spreadsheet"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-bar-chart-steps"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-people"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cut"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-cloud-upload"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- collapsed navigation end-->
+      <div class="branding text-center">
+        <h6 class="full-brand">
+          Developed By-
+          <a href="https://www.nogorsolutions.com/" target="_blank" class="d-block">Nogor Solutions Limited</a>
+        </h6>
+        <div class="short-brand d-none">
+          <img src="images/nogo-fevicon.png" alt="nogo-fevicon">
+        </div>
+      </div>
+    </div>
+    <!-- main content start -->
+    <div class="main-content-body">
+      <!-- top header start -->
+      <div class="top-header">
+        <div class="topbar">
+          <div class="row">
+            <div class="col-lg-6 left-info-col align-self-center">
+              <div class="left-info d-flex">
+                <div class="logo">
+                  <a href=""><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="mobile-control-bar d-block d-lg-none">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <div class="control-bar d-none d-lg-block">
+                  <i class="fas fa-bars"></i>
+                </div>
+                <div class="expand">
+                  <i class="fas fa-arrows-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 right-info-col">
+              <div class="right-info header-right-info text-end d-flex justify-content-end align-items-center">
+                <div class="notification dropdown">
+                  <div class="notifi-icon dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="far fa-bell bell"></i>
+                    <sup>3</sup>
+                  </div>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="top d-flex justify-content-between">
+                      <h4>Notification</h4>
+                      <span>Clear All</span>
+                    </div>
+                    <div class="middle">
+                      <div class="msg-box d-flex">
+                        <div class="icon">
+                          <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-2">
+                          <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-3">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-4">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-5">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="icon icon-6">
+                          <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="text">
+                          <p>Caleb Flakelar commented on Admin</p>
+                          <span>2 minutes ago</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btm text-center">
+                      <a href="#">Show All Notification <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </ul>
+                </div>
+                <div class="messages dropdown">
+                  <div class="notifi-mess dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="far fa-comment-alt bell mess"></i>
+                    <sup>9</sup>
+                  </div>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="top d-flex justify-content-between">
+                      <h4>MESSAGES</h4>
+                      <span>Clear All</span>
+                    </div>
+                    <div class="middle">
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Donna Seay
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring.</p>
+                        </div>
+                      </div>
+                      <div class="msg-box d-flex">
+                        <div class="img">
+                          <img src="images/profile-2.jpg" alt="profile">
+                        </div>
+                        <div class="text">
+                          <h5>
+                            Samantha Francis
+                            <span>2 minutes ago</span>
+                          </h5>
+                          <p>My entire soul, like these sweet mornings of spring.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btm text-center">
+                      <a href="#">Show All Messages <i class="fas fa-chevron-down"></i></a>
+                    </div>
+                  </ul>
+                </div>
+                <div class="profile dropdown">
+                  <ul class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="profile-image">
+                      <img src="images/profile.jpg" alt="profile">
+                    </li>
+                    <li>John Doe <i class="fas fa-angle-down"></i></li>
+                  </ul>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="profile.html"><i class="far fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i> My Messages</a></li>
+                    <li><a href="#"><i class="fas fa-lock"></i> Lock Screen</a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- navbar part start -->
+        <nav class="top-navbar">
+          <ul>
+            <li>
+              <a href="">
+                <i class="fa-brands fa-windows"></i>
+                Dashboard
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-layer-group"></i>
+                Apps
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-border-all"></i>
+                Layout
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-regular fa-circle-user"></i>
+                Authentication
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-regular fa-file-lines"></i>
+                Pages
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-monument"></i>
+                Landing
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li><a href="">Ecommerce</a></li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-cookie-bite"></i>
+                Base Ui
+                <span><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">CRM</a></li>
+                <li>
+                  <a href="">
+                    Ecommerce
+                    <span class="float-end"><i class="fa-solid fa-angle-right"></i></span>
+                  </a>
+                  <ul>
+                    <li><a href="">Analytics</a></li>
+                    <li><a href="">CRM</a></li>
+                    <li>
+                      <a href="">
+                        Ecommerce
+                        <span class="float-end"><i class="fa-solid fa-angle-right"></i></span>
+                      </a>
+                      <ul>
+                        <li><a href="">Analytics</a></li>
+                        <li><a href="">CRM</a></li>
+                        <li><a href="">Ecommerce</a></li>
+                        <li><a href="">Crypto</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">NFT</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Crypto</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">NFT</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Crypto</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">NFT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- top header end -->
+      <!-- breadcrumb start -->
+      <div class="bread-crumb-part">
+        <div class="row">
+          <div class="col-lg-6 small-device-dash">
+            <div class="left-title">
+              <h3>Dashboard</h3>
+            </div>
+          </div>
+          <div class="col-lg-6 small-device-breadcrumb">
+            <div class="right-info text-end">
+              <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li>Form List</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb end -->
+      <!-- content part start -->
+      <div class="content-part">
+        <div class="inner-content">
+          <!-- search header -->
+          <div class="search-section">
+            <div class="row">
+              <div class="col-sm-7 col-lg-9 col-xxl-9">
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                      <div class="form-element">
+                        <label for="">Select One</label>
+                        <select class="form-select shadow-none" aria-label="Default select example">
+                          <option selected>Select One</option>
+                          <option value="2">P_No</option>
+                          <option value="3">Name</option>
+                          <option value="3">BNID</option>
+                          <option value="3">NID</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                      <div class="form-element">
+                        <label for="">From Date</label>
+                        <input type="date">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                      <div class="form-element">
+                        <label for="">To Date</label>
+                        <input type="date">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                      <div class="form-element">
+                        <label for="">GX No</label>
+                        <input type="text" placeholder="Type here...">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                      <div class="form-element">
+                        <label for="">Rank</label>
+                        <input type="text" placeholder="Type here...">
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 align-self-end">
+                      <button type="submit" class="search-btn">
+                        <div class="btn-front"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="btn-back"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-5 col-lg-3 col-xxl-3 ms-auto align-self-center text-end">
+                <a href="single-form.html" class="">
+                  <button type="button" class="add-btn d-flex ms-auto" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Add Item">
+                    <div class="btn-front">Add single Form</div>
+                    <div class="btn-back">Add single Form</div>
+                  </button>
+                </a>
+                <a href="group-form.html" class="">
+                  <button type="button" class="add-btn d-flex ms-auto" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Add Item">
+                    <div class="btn-front">Add group Form</div>
+                    <div class="btn-back">Add group Form</div>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- table data showing sorting & number of data -->
+          <div class="sorting-data mt-3">
+            <div class="row">
+              <div class="col-sm-6 col-lg-6 align-self-end">
+                <div class="showing-number">
+                  <span> Showing <span class="single-number">1</span> to <span class="single-number">
+                      <div class="form-element mb-0 d-inline-block mx-1">
+                        <select class="form-select sort-number shadow-none" aria-label="Default select example">
+                          <option selected>100</option>
+                          <option value="1">10</option>
+                          <option value="2">20</option>
+                          <option value="3">30</option>
+                        </select>
+                      </div>
+                    </span> of <span class="single-number">4</span> entries </span>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-6 ms-auto">
+                <div class="print-option ms-2 mt-4 ms-sm-0 mt-sm-0 text-start text-sm-end">
+                  <ul>
+                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="printer" href=""><i class="bi bi-printer-fill"></i></a></li>
+                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="pdf"
+                        href=""><i class="fa-solid fa-file-pdf"></i></a></li>
+                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="excel"
+                        href=""><i class="fas fa-file-excel" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- table data list -->
+          <div class="table-list mt-3">
+            <div class="table-list-body table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>
+                      <span class="table-title">GX No
+                        <i class="bi bi-caret-up-fill sort-up"></i>
+                        <i class="bi bi-caret-down-fill sort-down"></i>
+                      </span>
+                    </th>
+                    <th>
+                      <span class="table-title">GX Date
+                        <i class="bi bi-caret-up-fill sort-up"></i>
+                        <i class="bi bi-caret-down-fill sort-down"></i>
+                      </span>
+                    </th>
+                    <th>
+                      <span class="table-title">Image
+                      </span>
+                    </th>
+                    <th>
+                      <span class="table-title">
+                        P No
+                        <i class="bi bi-caret-up-fill sort-up"></i>
+                        <i class="bi bi-caret-down-fill sort-down"></i>
+                      </span>
+                    </th>
+                    <th>
+                      <span class="table-title">
+                        Name
+                        <i class="bi bi-caret-up-fill sort-up"></i>
+                        <i class="bi bi-caret-down-fill sort-down"></i>
+                      </span>
+                    </th>
+                    <th>Rank </th>
+                    <th>Status</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody style="border-top: 0">
+                  <tr>
+                    <td style="min-width:30px">1</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">2</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">3</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">4</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">5</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">6</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">7</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">8</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">9</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">10</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="min-width:30px">11</td>
+                    <td style="min-width:150px">0 / 10 (G)</td>
+                    <td style="min-width:100px">21 July, 2023</td>
+                    <td style="min-width:150px">
+                      <div class="table-image">
+                        <img src="images/profile.jpg" alt="">
+                      </div>
+                    </td>
+                    <td style="min-width:100px">1388</td>
+                    <td style="min-width:100px">Jashim Uddin</td>
+                    <td style="min-width:160px">Officer</td>
+                    <td style="min-width:100px">
+                      <span class="released comming">
+                        Active
+                      </span>
+                    </td>
+                    <td style="min-width:140px">
+                      <a href="form-list-view.html">
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete view"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                      <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                        class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- number of data and pagination -->
+          <div class="list-footer">
+            <div class="row">
+              <div class="col-md-5 col-lg-6 align-self-center">
+                <div class="showing-number">
+                  <p> Showing <span class="single-number">1</span> to <span class="single-number">4</span> of <span
+                      class="single-number">4</span> entries </p>
+                </div>
+              </div>
+              <div class="col-md-7 col-lg-6">
+                <div class="pagination mt-4 mt-md-0 d-flex justify-content-start justify-content-md-end">
+                  <ul>
+                    <li class="arrow"><a href="#"><i class="bi bi-arrow-left"></i></a></li>
+                    <li class="mid-pagi"><a href="#"><span>2</span></a><a href="#"><span>3</span></a><a class="active"
+                        href="#"><span>4</span></a><a href="#"><span>5</span></a><a href="#"><span>6</span></a><a
+                        href="#"><span>7</span></a></li>
+                    <li class="arrow"><a href="#"><i class="bi bi-arrow-right"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content part end -->
+    </div>
+    <!-- main content end -->
+  </section>
+  <!-- sidebar navigation end -->
+
+
+  <!-- script file start -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/smooth-scrollbar.js"></script>
+  <script src="js/script.js"></script>
+  <!-- script file  end-->
+</body>
+
+</html>
