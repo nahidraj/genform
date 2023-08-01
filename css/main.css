@@ -1570,4 +1570,233 @@ body {
   border-radius: 5px;
   border: 1px solid #53627d; }
 
+.searchable-employee-profile {
+  background-color: #f5f5f5;
+  padding: 20px; }
+  .searchable-employee-profile .main-info {
+    background-color: #00BCD4;
+    padding: 24px;
+    position: relative;
+    border-radius: 3px;
+    width: 90%;
+    margin-left: auto; }
+    .searchable-employee-profile .main-info .title {
+      position: absolute;
+      background-color: #fff;
+      color: #404E67;
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 44px;
+      border-radius: 3px;
+      left: -89px;
+      font-size: 18px;
+      padding: 13px 29px;
+      font-weight: 600;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1); }
+    .searchable-employee-profile .main-info .image {
+      width: 100px;
+      border-radius: 50%;
+      height: 100px;
+      border: 3px solid #fff;
+      position: absolute;
+      top: 20px;
+      left: 20px; }
+      .searchable-employee-profile .main-info .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%; }
+    .searchable-employee-profile .main-info .text {
+      padding-left: 120px; }
+      .searchable-employee-profile .main-info .text ul li {
+        color: #fff;
+        line-height: 22px; }
+
+.single-form-search-record {
+  background-color: #f5f5f5;
+  margin-top: 24px;
+  padding: 24px; }
+  .single-form-search-record .inner-border {
+    border: 1px solid #404E67;
+    position: relative;
+    padding: 24px; }
+    .single-form-search-record .inner-border .title {
+      position: absolute;
+      top: -17px;
+      left: 14px;
+      font-size: 18px;
+      color: #000;
+      background-color: #f5f5f5;
+      padding: 3px 15px;
+      font-weight: 500; }
+    .single-form-search-record .inner-border .top-field-option {
+      margin-top: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #404E67; }
+      .single-form-search-record .inner-border .top-field-option .numbers .number-box {
+        position: relative; }
+        .single-form-search-record .inner-border .top-field-option .numbers .number-box::before {
+          position: absolute;
+          right: -42px;
+          top: 28px;
+          background-color: #404E67;
+          width: 1px;
+          height: 39px;
+          content: ""; }
+        .single-form-search-record .inner-border .top-field-option .numbers .number-box span {
+          font-size: 15px;
+          font-weight: 500; }
+        .single-form-search-record .inner-border .top-field-option .numbers .number-box h1 {
+          font-size: 46px;
+          font-weight: 700;
+          color: #404E67; }
+        .single-form-search-record .inner-border .top-field-option .numbers .number-box h3 {
+          font-size: 26px;
+          font-weight: 700;
+          color: #404E67; }
+        .single-form-search-record .inner-border .top-field-option .numbers .number-box:last-child::before {
+          display: none; }
+      .single-form-search-record .inner-border .top-field-option .numbers .number-box + .number-box {
+        margin-left: 80px; }
+    .single-form-search-record .inner-border .append-field-option {
+      margin-top: 20px; }
+    .single-form-search-record .inner-border .reference-boxes {
+      background-color: #fff;
+      padding: 20px; }
+      .single-form-search-record .inner-border .reference-boxes .single-box {
+        margin-bottom: 20px; }
+        .single-form-search-record .inner-border .reference-boxes .single-box h4 {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 8px; }
+        .single-form-search-record .inner-border .reference-boxes .single-box .cmn-btn {
+          height: 40px;
+          border: 0;
+          border-radius: 3px;
+          width: 38px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 20px;
+          background-color: #00BCD4;
+          color: #fff; }
+        .single-form-search-record .inner-border .reference-boxes .single-box .cmn-btn.delete {
+          background-color: #F1556C; }
+    .single-form-search-record .inner-border .status-boxes h4 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px; }
+
+.delete {
+  margin: 0 !important; }
+
+.arrows-input-groups input {
+  padding-right: 45px; }
+.arrows-input-groups button {
+  border: 0;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #02C0CE;
+  color: #fff;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px; }
+
+.group-form-search-record {
+  background-color: #f5f5f5;
+  padding: 24px; }
+  .group-form-search-record .inner-border {
+    border: 1px solid #404E67;
+    position: relative;
+    padding: 24px; }
+    .group-form-search-record .inner-border .title {
+      position: absolute;
+      top: -17px;
+      left: 14px;
+      font-size: 18px;
+      color: #000;
+      background-color: #f5f5f5;
+      padding: 3px 15px;
+      font-weight: 500; }
+    .group-form-search-record .inner-border .top-field-option {
+      margin-top: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #404E67; }
+      .group-form-search-record .inner-border .top-field-option .numbers .number-box {
+        position: relative; }
+        .group-form-search-record .inner-border .top-field-option .numbers .number-box::before {
+          position: absolute;
+          right: -42px;
+          top: 28px;
+          background-color: #404E67;
+          width: 1px;
+          height: 39px;
+          content: ""; }
+        .group-form-search-record .inner-border .top-field-option .numbers .number-box span {
+          font-size: 15px;
+          font-weight: 500; }
+        .group-form-search-record .inner-border .top-field-option .numbers .number-box h1 {
+          font-size: 46px;
+          font-weight: 700;
+          color: #404E67; }
+        .group-form-search-record .inner-border .top-field-option .numbers .number-box h3 {
+          font-size: 26px;
+          font-weight: 700;
+          color: #404E67; }
+        .group-form-search-record .inner-border .top-field-option .numbers .number-box:last-child::before {
+          display: none; }
+      .group-form-search-record .inner-border .top-field-option .numbers .number-box + .number-box {
+        margin-left: 80px; }
+    .group-form-search-record .inner-border .status-boxes {
+      margin-top: 20px; }
+    .group-form-search-record .inner-border .reference-boxes {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px; }
+      .group-form-search-record .inner-border .reference-boxes .single-box {
+        margin-bottom: 20px; }
+        .group-form-search-record .inner-border .reference-boxes .single-box h4 {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 8px; }
+        .group-form-search-record .inner-border .reference-boxes .single-box .cmn-btn {
+          height: 40px;
+          border: 0;
+          border-radius: 3px;
+          width: 38px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 20px;
+          background-color: #00BCD4;
+          color: #fff; }
+        .group-form-search-record .inner-border .reference-boxes .single-box .cmn-btn.delete {
+          background-color: #F1556C; }
+    .group-form-search-record .inner-border .status-boxes h4 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px; }
+
+.searchable-employee-profile-list table thead {
+  color: #fff;
+  background: #02C0CE; }
+.searchable-employee-profile-list table tbody td {
+  vertical-align: middle;
+  background-color: #f5f5f5; }
+.searchable-employee-profile-list table tbody .profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; }
+.searchable-employee-profile-list table tbody .delete-btn {
+  height: 32px;
+  border: 0;
+  border-radius: 3px;
+  width: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  background-color: #F1556C;
+  color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
