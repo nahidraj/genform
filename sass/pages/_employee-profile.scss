@@ -14,10 +14,16 @@
       }
     }
   }
-  .employee-profile-search{
+.employee-profile-search {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 5px;
     border: 1px solid $lightDarkColor;
+  }
+}
+.employee-reacord-search-result {
+  .image {
+    width: 500px;
+    margin: 0 auto;
   }
 }

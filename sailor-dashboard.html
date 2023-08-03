@@ -41,61 +41,21 @@
         </div>
         <div class="main-menus">
           <ul id="accordion" class="accordion">
-            <li>
+            <li class="active">
               <div class="link">
-                <a href="index.html" class="ps-0">
+                <a href="#" class="ps-0 pe-0">
                   <span class="icon"><i class="bi bi-house-door"></i></span>
                   <span class="title">
                     Dashboard
-                    <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
+                    <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
                   </span>
                 </a>
               </div>
-              <!-- <ul class="submenu title">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        <i class="far fa-circle"></i> Level Two Menu
-                        <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
-                      </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                      data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body third-level">
-                        <ul>
-                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
-                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
-                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
-                          <div class="accordion accordion-flush" id="accordionFlushExample2">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button fourth-level collapsed shadow-none" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                  aria-controls="flush-collapseTwo">
-                                  <i class="far fa-circle"></i> Level Three Menu
-                                  <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
-                                </button>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse fourth-level-child"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
-                                <div class="accordion-body">
-                                  <ul>
-                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
-                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
-                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </ul> -->
+              <ul class="submenu title">
+                <li><a href="sailor-dashboard.html"><i class="fas fa-angle-right"></i> Unit Wise Sailor</a></li>
+                <li><a href="officer-dashboard.html"><i class="fas fa-angle-right"></i> Unit Wise Officer</a></li>
+                <li><a href="all-navy-dashboard.html"><i class="fas fa-angle-right"></i> All Navy</a></li>
+              </ul>
             </li>
             <li>
               <div class="link">
@@ -106,11 +66,9 @@
                 </span>
               </div>
               <ul class="submenu title">
-                <ul>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
-                </ul>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
               </ul>
             </li>
             <li>
@@ -126,9 +84,9 @@
                 <li><a href="approved-genform-list.html"><i class="fas fa-angle-right"></i> Approved Gen Form</a></li>
               </ul>
             </li>
-            <li class="active">
+            <li>
               <div class="link">
-                <a href="" class="ps-0">
+                <a href="employees.html" class="ps-0">
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                   <span class="title">
                     Employees
@@ -176,11 +134,9 @@
                 </span>
               </div>
               <ul class="submenu title">
-                <ul>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
-                  <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
-                </ul>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
               </ul>
             </li>
           </ul>
@@ -756,7 +712,6 @@
           </ul>
         </nav>
       </div>
-      <!-- top header end -->
       <!-- breadcrumb start -->
       <div class="bread-crumb-part">
         <div class="row">
@@ -779,189 +734,372 @@
       <!-- breadcrumb end -->
       <!-- content part start -->
       <div class="content-part">
-        <div class="inner-content">
-          <!-- search header -->
+        <div class="dashboard-shortcut-button">
+          <ul>
+            <li><a href="" class="list-btn"><i class="fas fa-calendar-week"></i> Single Gen Form</a></li>
+            <li><a href="" class="list-btn"><i class="fas fa-layer-group"></i> Group Gen Form</a></li>
+            <li><a href="" class="list-btn"><i class="fas fa-list"></i> Employee List</a></li>
+            <li><a href="" class="list-btn"><i class="fas fa-archive"></i> Gen Form Archive</a></li>
+          </ul>
+
+        </div>
+        <div class="details-info">
           <div class="row">
-            <div class="col-lg-12">
-              <div class="back-button text-end">
-                <!-- <a href="employees.html">
-                  <button type="button" class="add-btn d-flex ms-auto" data-bs-toggle="tooltip" data-bs-placement="top"
-                    data-bs-title="Add Item">
-                    <div class="btn-front"> Back</div>
-                    <div class="btn-back"> Back</div>
-                  </button>
-                </a> -->
-                <a href="employees.html">
-                  <button class="back-btn"><i class="fas fa-long-arrow-alt-left animate-btn"></i></button>
-                </a>
+            <div class="col-lg-12 col-xl-3 col-xxl-4">
+              <div class="pie-chart-information">
+                <div class="title">
+                  <h4>Statistics for Gen Form Type</h4>
+                </div>
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-9 col-xxl-8">
+              <div class="bar-chart-information">
+                <div class="title">
+                  <h4>Statistics for Daily Gen Form</h4>
+                </div>
+                <canvas id="myChart1"></canvas>
               </div>
             </div>
           </div>
-          <div class="employee-view-page">
-            <div class="view-profile">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="profile-main">
-                    <div class="profile-image">
-                      <div class="img position-relative">
-                        <img src="images/prf.png" alt="prf" class="img-fluid w-100">
-                        <div class="upload">
-                          <input type="file" id="upload" class="d-none" accept="image/*">
-                          <label for="upload">
-                            <i class="bi bi-cloud-upload upload"></i>
-                          </label>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="total-sailor-statistics mt-4">
+                <div class="title">
+                  <h4>Statistics</h4>
+                </div>
+                <div class="top-short-summery">
+                  <div class="row">
+                    <div class="col-lg-12 mb-3">
+                      <div class="summery-item">
+                        <h4>Total Sailor</h4>
+                        <h3 class="counter">586,356</h3>
+                        <div class="circle">
+                          <i class="far fa-id-card"></i>
                         </div>
                       </div>
-                      <div class="text mt-4 text-center">
-                        <h4>G M SARWAR SHOOMON</h4>
-                        <p>Status: Active</p>
+                    </div>
+                    <div class="col-lg-12 mb-3">
+                      <div class="summery-item item-2">
+                        <h4>Male</h4>
+                        <h3 class="counter">158,356</h3>
+                        <div class="circle">
+                          <i class="fas fa-male"></i>
+                        </div>
                       </div>
                     </div>
-                    <div class="contact-info mt-4">
-                      <h5>Contact Information</h5>
-                      <ul>
-                        <li><i class="bi bi-envelope"></i> <span>shoomon1388@gmail.com</span></li>
-                        <li><i class="bi bi-telephone"></i> <span> 01970001388</span></li>
-                      </ul>
+                    <div class="col-lg-12 mb-3">
+                      <div class="summery-item item-3 mb-md-0">
+                        <h4>Female</h4>
+                        <h3 class="counter">586,356</h3>
+                        <div class="circle">
+                          <i class="fas fa-female"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 mb-3">
+                      <div class="summery-item item-4">
+                        <h4>Total Gen Form</h4>
+                        <h3><span class="counter">99</span></h3>
+                        <div class="circle">
+                          <i class="far fa-snowflake"></i>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-9">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="employee-other-info">
-                        <h5>Personal Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <tbody>
-                              <tr>
-                                <th>Employee type id:</th>
-                                <td>2</td>
-                              </tr>
-                              <tr>
-                                <th>Gender:</th>
-                                <td>Male</td>
-                              </tr>
-                              <tr>
-                                <th>Religion:</th>
-                                <td>Islam</td>
-                              </tr>
-                              <tr>
-                                <th>Maritial status: </th>
-                                <td>Married</td>
-                              </tr>
-                              <tr>
-                                <th>Has children: </th>
-                                <td>Yes</td>
-                              </tr>
-                              <tr>
-                                <th>Is pregnancy: </th>
-                                <td>No</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="employee-other-info">
-                        <h5>Professional Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <tbody>
-                              <tr>
-                                <th>P no: </th>
-                                <td>1388</td>
-                              </tr>
-                              <tr>
-                                <th>Bn id no:</th>
-                                <td>3352</td>
-                              </tr>
-                              <tr>
-                                <th>National id no:</th>
-                                <td>2650898268822</td>
-                              </tr>
-                              <tr>
-                                <th>Date of birth: </th>
-                                <td>1979-10-18</td>
-                              </tr>
-                              <tr>
-                                <th>Created at: </th>
-                                <td>5 Jul 2023</td>
-                              </tr>
-                              <tr>
-                                <th>Updated at: </th>
-                                <td>5 Jul 2023</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="employee-other-info mt-4">
-                        <h5>Genform Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th>Gx No</th>
-                                <th>Date</th>
-                                <th>Unit</th>
-                                <th>Description</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td rowspan="10">0/10 (G)</td>
-                                <td rowspan="10">05 July, 2023</td>
-                                <td rowspan="10">Titumir</td>
-                              </tr>
-                              <tr>
-                                <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
-                              </tr>
-                              <tr>
-                                <td>Alloted to drew messing allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw messing allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw outfit allowance vide JSI 01/2016.</td>
-                              </tr>
-                              <tr>
-                                <td>Public clothing items recoverd.</td>
-                              </tr>
-                              <tr>
-                                <td>Govt. married accommodation not provided.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw house rent allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw married rates of pay and allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>NHQ Signal BG-732 & DTG-081030 Jul 2018 refers (.)</td>
-                              </tr>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="last-10-genform mt-4">
+                <div class="title">
+                  <h4>Genform Information</h4>
+                </div>
+                <div class="table-list">
+                  <div class="table-list-body table-responsive">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>
+                            <span class="table-title">GX No
+                              <i class="bi bi-caret-up-fill sort-up"></i>
+                              <i class="bi bi-caret-down-fill sort-down"></i>
+                            </span>
+                          </th>
+                          <th>
+                            <span class="table-title">GX Date
+                              <i class="bi bi-caret-up-fill sort-up"></i>
+                              <i class="bi bi-caret-down-fill sort-down"></i>
+                            </span>
+                          </th>
+                          <th>
+                            <span class="table-title">Image
+                            </span>
+                          </th>
+                          <th>
+                            <span class="table-title">
+                              P No
+                              <i class="bi bi-caret-up-fill sort-up"></i>
+                              <i class="bi bi-caret-down-fill sort-down"></i>
+                            </span>
+                          </th>
+                          <th>
+                            <span class="table-title">
+                              Name
+                              <i class="bi bi-caret-up-fill sort-up"></i>
+                              <i class="bi bi-caret-down-fill sort-down"></i>
+                            </span>
+                          </th>
+                          <th>Rank </th>
+                          <th>Status</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody style="border-top: 0">
+                        <tr>
+                          <td style="min-width:30px">1</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">2</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">3</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">4</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">5</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">6</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">7</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">8</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">9</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="min-width:30px">10</td>
+                          <td style="min-width:100px">0 / 10 (G)</td>
+                          <td style="min-width:140px">21 July, 2023</td>
+                          <td style="min-width:100px">
+                            <div class="table-image">
+                              <img src="images/profile.jpg" alt="">
+                            </div>
+                          </td>
+                          <td style="min-width:100px">1388</td>
+                          <td style="min-width:200px">Jashim Uddin</td>
+                          <td style="min-width:100px">Officer</td>
+                          <td style="min-width:100px">
+                            <span class="released comming">
+                              Active
+                            </span>
+                          </td>
+                          <td style="min-width:0px">
+                            <a href="form-list-view.html">
+                              <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                class="delete view"><i class="fa-solid fa-eye"></i></span>
+                            </a>
+                          </td>
+                        </tr>
 
-                              <tr>
-                                <td rowspan="3">0/10 (G)</td>
-                                <td rowspan="3">05 July, 2023</td>
-                                <td rowspan="3">Titumir</td>
-                              </tr>
-
-                              <tr>
-                                <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
-                              </tr>
-                              <tr>
-                                <td>Alloted to drew messing allowance.</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
@@ -982,6 +1120,7 @@
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/smooth-scrollbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/script.js"></script>
   <!-- script file  end-->
 </body>

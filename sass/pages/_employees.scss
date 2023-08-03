@@ -71,3 +71,13 @@
     padding: 24px;
   }
 }
+.employee-record {
+  background-color: $themeColorFive;
+  padding: 8px 16px;
+  color: $lightColor;
+  border-radius: 3px;
+
+  &:hover {
+    color: $lightColor !important;
+  }
+}

@@ -114,5 +114,85 @@ $(function () {
   //   main_content_body.classList.toggle("margin-none")
   // })
 
+  const ctx = document.getElementById('myChart');
+  new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ['Transfer', 'Leave', 'Proceed', 'Marriage', 'Absent'],
+      datasets: [{
+        label: '',
+        data: [20, 10, 30, 50, 20, ],
+        borderWidth: 1,
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+
+  const ctx1 = document.getElementById('myChart1');
+  new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5'],
+      datasets: [{
+        label: '',
+        data: [20, 10, 30, 50, 20, ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  const ctx3 = document.getElementById('myChart3');
+  new Chart(ctx3, {
+    type: 'pie',
+    data: {
+      labels: ['Leave (A)', 'Transfer (B)', 'TY Duty (C)'],
+      datasets: [{
+        label: '',
+        data: [20, 10, 30],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  const ctx4 = document.getElementById('myChart4');
+  new Chart(ctx4, {
+    type: 'bar',
+    data: {
+      labels: ['Haji Mahsin', 'Titumir', 'DNST', "DNIT"],
+      datasets: [{
+        label: '',
+        data: [20, 10, 30, 50],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
 
 });

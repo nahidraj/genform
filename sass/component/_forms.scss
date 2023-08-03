@@ -5,6 +5,7 @@
   background-color: $lightColor;
   padding: 30px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .form-element {
@@ -61,6 +62,9 @@
       border-color: $themeColorFour;
     }
   }
+.file-input {
+  padding: 5px;
+}
 }
 
 // .tooltip-arrow,
@@ -133,6 +137,7 @@
       }
     }
   }
+
 }
 
 .file-upload {

@@ -1,0 +1,160 @@
+@import "../variable/bgcolor";
+@import "../variable/textcolor";
+
+.dashboard-shortcut-button {
+  background-color: $lightColor;
+  padding: 24px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  border-radius: 5px;
+
+  ul {
+    display: flex;
+
+    li {
+      width: 25%;
+
+      .list-btn {
+        background-color: $themeColorTwo;
+        display: block;
+        padding: 16px 30px;
+        border-radius: 4px;
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $lightColor;
+        margin: 0 8px !important;
+
+        i {
+          width: 70px;
+          font-size: 24px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: $lightColor;
+          color: $themeColorTwo;
+          text-align: center;
+          line-height: 70px;
+          margin-right: 14px;
+        }
+      }
+
+      &:nth-child(2) {
+        .list-btn {
+          background-color: $themeColorThree;
+        }
+      }
+
+      &:nth-child(3) {
+        .list-btn {
+          background-color: $themeColorFive;
+        }
+      }
+
+      &:nth-child(4) {
+        .list-btn {
+          background-color: $success;
+        }
+      }
+    }
+  }
+}
+
+.pie-chart-information {
+  height: 590px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 17px;
+    color: #404E67;
+  }
+}
+
+.bar-chart-information {
+  height: 590px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 17px;
+    color: #404E67;
+  }
+}
+
+.last-10-genform {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px;
+}
+
+.last-10-genform .title {
+  margin-bottom: 10px;
+
+  h4 {
+    font-size: 17px;
+    color: #404E67;
+  }
+}
+
+.total-sailor-statistics {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px;
+}
+
+.total-sailor-statistics {
+  .title {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 17px;
+    color: #404E67;
+  }
+
+  .summery-item {
+    padding: 25px 24px !important;
+
+    h4 {
+      font-size: 18px !important;
+    }
+
+    h3 {
+      font-size: 38px !important;
+      padding-bottom: 0 !important;
+    }
+  }
+
+}
+
+.all-navy-dashboard-info {
+  .pie-chart-information {
+    height: 401px;
+
+    canvas {
+      height: 300px !important;
+      width: 300px !important;
+    }
+  }
+
+  .last-10-genform {
+    height: 400px;
+  }
+}

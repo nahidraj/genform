@@ -126,9 +126,9 @@
                 <li><a href="approved-genform-list.html"><i class="fas fa-angle-right"></i> Approved Gen Form</a></li>
               </ul>
             </li>
-            <li class="active">
+            <li>
               <div class="link">
-                <a href="" class="ps-0">
+                <a href="employees.html" class="ps-0">
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                   <span class="title">
                     Employees
@@ -136,7 +136,7 @@
                 </a>
               </div>
             </li>
-            <li>
+            <li class="active">
               <div class="link">
                 <a href="employee-record.html" class="ps-0">
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
@@ -769,8 +769,7 @@
             <div class="right-info text-end">
               <ul>
                 <li><a href="index.html">Dashboard</a></li>
-                <li>Widget</li>
-                <li>Otros buscadores</li>
+                <li>Employee Profile</li>
               </ul>
             </div>
           </div>
@@ -781,188 +780,54 @@
       <div class="content-part">
         <div class="inner-content">
           <!-- search header -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-12">
               <div class="back-button text-end">
-                <!-- <a href="employees.html">
+                <a href="employees.html">
                   <button type="button" class="add-btn d-flex ms-auto" data-bs-toggle="tooltip" data-bs-placement="top"
                     data-bs-title="Add Item">
                     <div class="btn-front"> Back</div>
                     <div class="btn-back"> Back</div>
                   </button>
-                </a> -->
-                <a href="employees.html">
-                  <button class="back-btn"><i class="fas fa-long-arrow-alt-left animate-btn"></i></button>
                 </a>
               </div>
             </div>
-          </div>
-          <div class="employee-view-page">
+          </div> -->
+          <div class="employee-profile-page mt-0">
             <div class="view-profile">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="profile-main">
-                    <div class="profile-image">
-                      <div class="img position-relative">
-                        <img src="images/prf.png" alt="prf" class="img-fluid w-100">
-                        <div class="upload">
-                          <input type="file" id="upload" class="d-none" accept="image/*">
-                          <label for="upload">
-                            <i class="bi bi-cloud-upload upload"></i>
-                          </label>
+              <div class="search-section mb-4">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-4 col-xl-11">
+                          <div class="form-element">
+                            <label for="" class="d-block w-100">
+                              P No <sup class="text-danger">*</sup>
+                              <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Please insert your name here"><i
+                                  class="fa-solid fa-circle-info"></i></span>
+                            </label>
+                            <input class="" type="text" placeholder="Enter your name">
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-1 align-self-end">
+                          <button type="submit" class="search-btn">
+                            <div class="btn-front"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            <div class="btn-back"><i class="fa-solid fa-magnifying-glass"></i></div>
+                          </button>
                         </div>
                       </div>
-                      <div class="text mt-4 text-center">
-                        <h4>G M SARWAR SHOOMON</h4>
-                        <p>Status: Active</p>
-                      </div>
-                    </div>
-                    <div class="contact-info mt-4">
-                      <h5>Contact Information</h5>
-                      <ul>
-                        <li><i class="bi bi-envelope"></i> <span>shoomon1388@gmail.com</span></li>
-                        <li><i class="bi bi-telephone"></i> <span> 01970001388</span></li>
-                      </ul>
-                    </div>
+                    </form>
                   </div>
                 </div>
-                <div class="col-lg-9">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="employee-other-info">
-                        <h5>Personal Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <tbody>
-                              <tr>
-                                <th>Employee type id:</th>
-                                <td>2</td>
-                              </tr>
-                              <tr>
-                                <th>Gender:</th>
-                                <td>Male</td>
-                              </tr>
-                              <tr>
-                                <th>Religion:</th>
-                                <td>Islam</td>
-                              </tr>
-                              <tr>
-                                <th>Maritial status: </th>
-                                <td>Married</td>
-                              </tr>
-                              <tr>
-                                <th>Has children: </th>
-                                <td>Yes</td>
-                              </tr>
-                              <tr>
-                                <th>Is pregnancy: </th>
-                                <td>No</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="employee-other-info">
-                        <h5>Professional Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <tbody>
-                              <tr>
-                                <th>P no: </th>
-                                <td>1388</td>
-                              </tr>
-                              <tr>
-                                <th>Bn id no:</th>
-                                <td>3352</td>
-                              </tr>
-                              <tr>
-                                <th>National id no:</th>
-                                <td>2650898268822</td>
-                              </tr>
-                              <tr>
-                                <th>Date of birth: </th>
-                                <td>1979-10-18</td>
-                              </tr>
-                              <tr>
-                                <th>Created at: </th>
-                                <td>5 Jul 2023</td>
-                              </tr>
-                              <tr>
-                                <th>Updated at: </th>
-                                <td>5 Jul 2023</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="employee-other-info mt-4">
-                        <h5>Genform Information</h5>
-                        <div class="main-info">
-                          <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th>Gx No</th>
-                                <th>Date</th>
-                                <th>Unit</th>
-                                <th>Description</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td rowspan="10">0/10 (G)</td>
-                                <td rowspan="10">05 July, 2023</td>
-                                <td rowspan="10">Titumir</td>
-                              </tr>
-                              <tr>
-                                <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
-                              </tr>
-                              <tr>
-                                <td>Alloted to drew messing allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw messing allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw outfit allowance vide JSI 01/2016.</td>
-                              </tr>
-                              <tr>
-                                <td>Public clothing items recoverd.</td>
-                              </tr>
-                              <tr>
-                                <td>Govt. married accommodation not provided.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw house rent allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>Entitled to draw married rates of pay and allowance.</td>
-                              </tr>
-                              <tr>
-                                <td>NHQ Signal BG-732 & DTG-081030 Jul 2018 refers (.)</td>
-                              </tr>
-
-                              <tr>
-                                <td rowspan="3">0/10 (G)</td>
-                                <td rowspan="3">05 July, 2023</td>
-                                <td rowspan="3">Titumir</td>
-                              </tr>
-
-                              <tr>
-                                <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
-                              </tr>
-                              <tr>
-                                <td>Alloted to drew messing allowance.</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+              <div class="employee-reacord-search-result">
+                <div class="image">
+                  <img src="images/No data-pana.png" alt="No data-pana" class="img-fluid w-100">
+                </div>
+                <div class="text text-center mt-4 pb-4">
+                  <h4>No Data Found</h4>
                 </div>
               </div>
             </div>

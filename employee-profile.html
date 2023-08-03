@@ -43,14 +43,19 @@
           <ul id="accordion" class="accordion">
             <li>
               <div class="link">
-                <a href="index.html" class="ps-0">
+                <a href="#" class="ps-0 pe-0">
                   <span class="icon"><i class="bi bi-house-door"></i></span>
                   <span class="title">
                     Dashboard
-                    <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
+                    <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
                   </span>
                 </a>
               </div>
+              <ul class="submenu title">
+                <li><a href="sailor-dashboard.html"><i class="fas fa-angle-right"></i> Unit Wise Sailor</a></li>
+                <li><a href="officer-dashboard.html"><i class="fas fa-angle-right"></i> Unit Wise Officer</a></li>
+                <li><a href="all-navy-dashboard.html"><i class="fas fa-angle-right"></i> All Navy</a></li>
+              </ul>
               <!-- <ul class="submenu title">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
@@ -115,6 +120,19 @@
             </li>
             <li>
               <div class="link">
+                <span class="icon"><i class="fas fa-arrows-alt" aria-hidden="true"></i></span>
+                <span class="title">
+                  Data Sharing
+                  <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                </span>
+              </div>
+              <ul class="submenu title">
+                <li><a href="pending-genform-list.html"><i class="fas fa-angle-right"></i> Pending Gen Form</a></li>
+                <li><a href="approved-genform-list.html"><i class="fas fa-angle-right"></i> Approved Gen Form</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="link">
                 <a href="employees.html" class="ps-0">
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                   <span class="title">
@@ -123,12 +141,12 @@
                 </a>
               </div>
             </li>
-            <li class="active">
+            <li>
               <div class="link">
-                <a href="employee-profile.html" class="ps-0">
+                <a href="employee-record.html" class="ps-0">
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                   <span class="title">
-                    Employee Profile
+                    Employee Record
                   </span>
                 </a>
               </div>
@@ -782,6 +800,33 @@
           </div> -->
           <div class="employee-profile-page mt-0">
             <div class="view-profile">
+              <div class="search-section mb-4">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-4 col-xl-11">
+                          <div class="form-element">
+                            <label for="" class="d-block w-100">
+                              P No <sup class="text-danger">*</sup>
+                              <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                                data-bs-title="Please insert your name here"><i
+                                  class="fa-solid fa-circle-info"></i></span>
+                            </label>
+                            <input class="" type="text" placeholder="Enter your name">
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-1 align-self-end">
+                          <button type="submit" class="search-btn">
+                            <div class="btn-front"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            <div class="btn-back"><i class="fa-solid fa-magnifying-glass"></i></div>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-lg-3">
                   <div class="profile-main">
@@ -901,6 +946,7 @@
                               <th>Date</th>
                               <th>Unit</th>
                               <th>Description</th>
+                              <th>Action</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -908,9 +954,16 @@
                               <td rowspan="10">0/10 (G)</td>
                               <td rowspan="10">05 July, 2023</td>
                               <td rowspan="10">Titumir</td>
+                              <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
+                              <td rowspan="10" class="text-center">
+                                <a href="form-list-view.html">
+                                  <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                    class="delete view"><i class="fa-solid fa-eye"></i></span>
+                                </a>
+                              </td>
                             </tr>
                             <tr>
-                              <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
+                              <td>demo text</td>
                             </tr>
                             <tr>
                               <td>Alloted to drew messing allowance.</td>
@@ -941,6 +994,13 @@
                               <td rowspan="3">0/10 (G)</td>
                               <td rowspan="3">05 July, 2023</td>
                               <td rowspan="3">Titumir</td>
+                              <td>Promoted to the rank of Ag S Lt, (SD) (REG), BN w.ef 09-07-2018.</td>
+                              <td rowspan="3" class="text-center">
+                                <a href="form-list-view.html">
+                                  <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                                    class="delete view"><i class="fa-solid fa-eye"></i></span>
+                                </a>
+                              </td>
                             </tr>
 
                             <tr>

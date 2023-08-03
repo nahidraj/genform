@@ -922,7 +922,8 @@ body {
 .inner-content {
   background-color: #fff;
   padding: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  position: relative; }
 
 .form-element label {
   font-size: 14px;
@@ -964,6 +965,8 @@ body {
   background-color: #fff; }
   .form-element input:focus {
     border-color: #00BCD4; }
+.form-element .file-input {
+  padding: 5px; }
 
 .form-element .image-box {
   width: 40px;
@@ -1165,6 +1168,28 @@ body {
       color: #fff;
       background: #F1556C; }
 
+.back-btn {
+  background-color: #00BCD4;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .back-btn .animate-btn {
+    animation: animate_btn 1.5s infinite linear; }
+@keyframes animate_btn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0; }
+  50% {
+    transform: translateX(0);
+    opacity: 1; }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0; } }
 .print-option ul li {
   display: inline-block;
   margin-left: 4px; }
@@ -1559,6 +1584,14 @@ body {
   .employee-other-info .main-info {
     padding: 24px; }
 
+.employee-record {
+  background-color: #777EDD;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 3px; }
+  .employee-record:hover {
+    color: #fff !important; }
+
 .employee-profile-page .view-profile .contact-info {
   padding: 0; }
   .employee-profile-page .view-profile .contact-info ul li {
@@ -1569,6 +1602,10 @@ body {
   padding: 20px;
   border-radius: 5px;
   border: 1px solid #53627d; }
+
+.employee-reacord-search-result .image {
+  width: 500px;
+  margin: 0 auto; }
 
 .searchable-employee-profile {
   background-color: #f5f5f5;
@@ -1798,5 +1835,108 @@ body {
   font-size: 16px;
   background-color: #F1556C;
   color: #fff; }
+
+.dashboard-shortcut-button {
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  border-radius: 5px; }
+  .dashboard-shortcut-button ul {
+    display: flex; }
+    .dashboard-shortcut-button ul li {
+      width: 25%; }
+      .dashboard-shortcut-button ul li .list-btn {
+        background-color: #0ACF97;
+        display: block;
+        padding: 16px 30px;
+        border-radius: 4px;
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0 8px !important; }
+        .dashboard-shortcut-button ul li .list-btn i {
+          width: 70px;
+          font-size: 24px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: #fff;
+          color: #0ACF97;
+          text-align: center;
+          line-height: 70px;
+          margin-right: 14px; }
+      .dashboard-shortcut-button ul li:nth-child(2) .list-btn {
+        background-color: #F1556C; }
+      .dashboard-shortcut-button ul li:nth-child(3) .list-btn {
+        background-color: #777EDD; }
+      .dashboard-shortcut-button ul li:nth-child(4) .list-btn {
+        background-color: #32c861; }
+
+.pie-chart-information {
+  height: 590px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px; }
+  .pie-chart-information .title {
+    margin-bottom: 10px; }
+  .pie-chart-information h4 {
+    font-size: 17px;
+    color: #404E67; }
+
+.bar-chart-information {
+  height: 590px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px; }
+  .bar-chart-information .title {
+    margin-bottom: 10px; }
+  .bar-chart-information h4 {
+    font-size: 17px;
+    color: #404E67; }
+
+.last-10-genform {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px; }
+
+.last-10-genform .title {
+  margin-bottom: 10px; }
+  .last-10-genform .title h4 {
+    font-size: 17px;
+    color: #404E67; }
+
+.total-sailor-statistics {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  padding: 24px; }
+
+.total-sailor-statistics .title {
+  margin-bottom: 10px; }
+.total-sailor-statistics h4 {
+  font-size: 17px;
+  color: #404E67; }
+.total-sailor-statistics .summery-item {
+  padding: 25px 24px !important; }
+  .total-sailor-statistics .summery-item h4 {
+    font-size: 18px !important; }
+  .total-sailor-statistics .summery-item h3 {
+    font-size: 38px !important;
+    padding-bottom: 0 !important; }
+
+.all-navy-dashboard-info .pie-chart-information {
+  height: 401px; }
+  .all-navy-dashboard-info .pie-chart-information canvas {
+    height: 300px !important;
+    width: 300px !important; }
+.all-navy-dashboard-info .last-10-genform {
+  height: 400px; }
 
 /*# sourceMappingURL=main.css.map */

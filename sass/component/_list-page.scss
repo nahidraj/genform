@@ -157,6 +157,39 @@
   }
 }
 
+.back-btn {
+  background-color: $themeColorFour;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: $lightColor;
+  border-radius: 3px;
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  .animate-btn {
+    animation: animate_btn 1.5s infinite linear;
+  }
+
+  @keyframes animate_btn {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+}
+
 
 .print-option {
   ul {
