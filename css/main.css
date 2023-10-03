@@ -2412,6 +2412,71 @@ body {
   top: -16px;
   left: 16px;
 }
+.chat__box .chat__list {
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #F5F8FA;
+}
+.chat__box .chat__list .users {
+  overflow-y: auto;
+  height: 482px;
+}
+.chat__box .chat__list .search__box {
+  margin-bottom: 20px;
+}
+.chat__box .chat__list .search__box input {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+  background-color: transparent;
+  border: 1px solid #3f3f3f;
+  padding: 0 15px;
+  padding-right: 45px;
+}
+.chat__box .chat__list .search__box input::placeholder {
+  opacity: 1;
+}
+.chat__box .chat__list .search__box i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #000;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+.chat__box .chat__list ul li {
+  margin-bottom: 14px;
+}
+.chat__box .chat__list ul li .Person {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 8px;
+}
+.chat__box .chat__list ul li .Person img {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.chat__box .chat__list ul li .Person span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.chat__box .chat__list ul .active .Person {
+  background-color: #bccbd4;
+}
+.chat__box .chat__list ul .active .Person span {
+  color: #000;
+}
 .chat__box .conversation__panel {
   background-color: #F5F8FA;
   border-radius: 5px;
@@ -2420,7 +2485,7 @@ body {
 .chat__box .conversation__panel .simplebar__content {
   padding: 15px;
   overflow-y: auto;
-  height: 400px;
+  height: 500px;
 }
 .chat__box .conversation__panel .simplebar__content li + li {
   margin-top: 14px;

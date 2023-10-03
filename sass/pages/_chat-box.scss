@@ -18,6 +18,85 @@
     left: 16px;
   }
 
+  .chat__list {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #F5F8FA;
+
+    .users {
+      overflow-y: auto;
+      height: 482px;
+    }
+
+    .search__box {
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+        height: 45px;
+        border-radius: 5px;
+        border: 0;
+        background-color: transparent;
+        border: 1px solid #3f3f3f;
+        padding: 0 15px;
+        padding-right: 45px;
+
+        &::placeholder {
+          opacity: 1;
+        }
+      }
+
+      i {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        color: $black;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+      }
+    }
+
+    ul {
+      li {
+        margin-bottom: 14px;
+
+        .Person {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          background-color: transparent;
+          border: 0;
+          padding: 8px;
+
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            margin-right: 10px;
+          }
+
+          span {
+            font-size: 16px;
+            font-weight:500;
+          }
+        }
+      }
+      .active{
+        .Person{
+          background-color: #bccbd4;
+          span{
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
   .conversation__panel {
     background-color: #F5F8FA;
     border-radius: 5px;
@@ -26,7 +105,7 @@
     .simplebar__content {
       padding: 15px;
       overflow-y: auto;
-      height: 400px;
+      height: 500px;
 
       li+li {
         margin-top: 14px;
