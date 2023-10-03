@@ -1,0 +1,223 @@
+@import "../variable/bgcolor";
+@import "../variable/textcolor";
+
+.chat__box {
+  fieldset {
+    border: 1px solid #b8b8b8;
+    padding: 24px;
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  fieldset .sub__header {
+    background-color: #ffffff;
+    padding: 2px 8px;
+    position: absolute;
+    top: -16px;
+    left: 16px;
+  }
+
+  .conversation__panel {
+    background-color: #F5F8FA;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+
+    .simplebar__content {
+      padding: 15px;
+      overflow-y: auto;
+      height: 400px;
+
+      li+li {
+        margin-top: 14px;
+      }
+
+      .user-msgbox {
+        max-width: 70%;
+        width: fit-content;
+
+        .media {
+          display: flex;
+          align-items: flex-start;
+
+          .media-body {
+            flex: 1;
+
+            span {
+              font-size: 12px;
+              font-weight: 400;
+              position: relative;
+              top: -5px;
+              font-style: italic;
+            }
+
+            p {
+              background-color: $themeColorTwo;
+              color: $lightColor;
+              padding: 3px 20px;
+              padding-bottom: 10px;
+              border-radius: 4px;
+              font-weight: 500;
+              position: relative;
+
+              &::before {
+                position: absolute;
+                top: 6px;
+                left: -5px;
+                width: 20px;
+                height: 20px;
+                background-color: $themeColorTwo;
+                content: "";
+                border-radius: 1px;
+                transform: rotate(45deg);
+              }
+
+              small {
+                line-height: 14px;
+                font-size: 12px;
+                font-weight: 500;
+              }
+            }
+          }
+
+          img {
+            margin-inline-end: 20px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .admin-msgbox {
+        margin-inline-start: auto;
+        max-width: 70%;
+        width: fit-content;
+
+        .media {
+          display: flex;
+          align-items: flex-start;
+
+          .media-body {
+            flex: 1;
+
+            span {
+              font-size: 12px;
+              font-weight: 400;
+              position: relative;
+              top: -5px;
+              font-style: italic;
+            }
+
+            p {
+              background-color: $themeColorTwo;
+              color: $lightColor;
+              padding: 3px 20px;
+              padding-bottom: 10px;
+              border-radius: 4px;
+              font-weight: 500;
+              position: relative;
+
+              &::before {
+                position: absolute;
+                top: 6px;
+                right: -5px;
+                width: 20px;
+                height: 20px;
+                background-color: $themeColorTwo;
+                content: "";
+                border-radius: 1px;
+                transform: rotate(45deg);
+              }
+
+              small {
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 14px;
+              }
+            }
+          }
+
+          img {
+            margin-inline-start: 20px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  .attachment__panel {
+    width: 100%;
+    padding: 4px 15px;
+    background-color: #F5F8FA;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: 1px solid $black;
+
+    .input_groups {
+      flex-grow: 1;
+
+      input {
+        width: 100%;
+        height: 52px;
+        background-color: transparent;
+        border: 0;
+      }
+    }
+
+    .option {
+      padding-left: 70px;
+
+      .file {
+        label {
+          background-color: $black;
+          color: $lightColor;
+          width: 35px;
+          height: 35px;
+          border-radius: 5px;
+          text-align: center;
+          line-height: 35px;
+          cursor: pointer;
+        }
+      }
+
+      .sent {
+        button {
+          background-color: $themeColorTwo;
+          color: $lightColor;
+          width: 35px;
+          height: 35px;
+          border-radius: 5px;
+          text-align: center;
+          line-height: 35px;
+          border: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .uploaded__file {
+      margin-right: 24px;
+      position: relative;
+
+
+      i {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        cursor: pointer;
+        color: $themeColorThree;
+      }
+
+      img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+
+
+}

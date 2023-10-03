@@ -56,6 +56,51 @@
                 <li><a href="officer-dashboard.html"><i class="fas fa-angle-right"></i> Unit Wise Officer</a></li>
                 <li><a href="all-navy-dashboard.html"><i class="fas fa-angle-right"></i> All Navy</a></li>
               </ul>
+              <!-- <ul class="submenu title">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="far fa-circle"></i> Level Two Menu
+                        <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body third-level">
+                        <ul>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                          <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                          <div class="accordion accordion-flush" id="accordionFlushExample2">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button fourth-level collapsed shadow-none" type="button"
+                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                  aria-controls="flush-collapseTwo">
+                                  <i class="far fa-circle"></i> Level Three Menu
+                                  <span class="child-arrow"><i class="fa fa-chevron-down"></i></span>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse fourth-level-child"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">
+                                  <ul>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu one</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu two</a></li>
+                                    <li><a href="html.html"><i class="fas fa-angle-right"></i> Menu three</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ul> -->
             </li>
             <li>
               <div class="link">
@@ -90,6 +135,16 @@
                   <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                   <span class="title">
                     Employees
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="link">
+                <a href="chatbox.html" class="ps-0">
+                  <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                  <span class="title">
+                    ChatBox
                   </span>
                 </a>
               </div>
@@ -734,241 +789,207 @@
       <!-- breadcrumb end -->
       <!-- content part start -->
       <div class="content-part">
-        <div class="dashboard-shortcut-button">
-          <ul>
-            <li><a href="" class="list-btn"><i class="fas fa-calendar-week"></i> Single Gen Form</a></li>
-            <li><a href="" class="list-btn"><i class="fas fa-layer-group"></i> Group Gen Form</a></li>
-            <li><a href="" class="list-btn"><i class="fas fa-list"></i> Employee List</a></li>
-            <li><a href="" class="list-btn"><i class="fas fa-archive"></i> Gen Form Archive</a></li>
-          </ul>
+        <div class="inner-content">
+          <div class="chat__box">
+            <div class="row">
+              <div class="col-lg-8 col-xl-8 col-xxl-6">
 
-        </div>
-        <div class="details-info">
-          <div class="row">
-            <div class="col-lg-12 col-xl-3 col-xxl-4">
-              <div class="pie-chart-information">
-                <div class="title">
-                  <h4>Statistics for Gen Form Type</h4>
-                </div>
-                <canvas id="myChart"></canvas>
-              </div>
-            </div>
-            <div class="col-lg-12 col-xl-9 col-xxl-8">
-              <div class="bar-chart-information">
-                <div class="title">
-                  <h4>Statistics for Daily Gen Form</h4>
-                </div>
-                <canvas id="myChart1"></canvas>
+                <fieldset>
+                  <h5 class="sub__header">Conversation</h5>
+                  <div class="conversation__panel">
+                    <ul class="simplebar__content list-unstyled">
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Younger brother of sir (MD. Arif) --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Baccha cele (Jarfaraz Karim) --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Nobobibahito (Kawsar bro) --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="user-msgbox">
+                          <div class="media"><img class="img-fluid" src="images/1.jpg" alt="image">
+                            <div class="media-body">
+                              <p>Lorem ipsum dolor sit amet
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="admin-msgbox">
+                          <div class="media">
+                            <div class="media-body">
+                              <p>Adipisicing elit, sed do eiusmod.
+                                <small class="d-block text-end">4:00 pm</small>
+                              </p>
+                              <span>-- Jhon doe --</span>
+                            </div><img class="img-fluid" src="images/2.jpg" alt="image">
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="attachment__panel d-flex align-items-center">
+                    <div class="uploaded__file">
+                      <img src="images/file.svg" alt="">
+                      <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="input_groups">
+                      <input type="text" placeholder="Write something...">
+                    </div>
+                    <div class="option d-flex">
+                      <div class="file">
+                        <input class="d-none" type="file" id="file">
+                        <label for="file"><i class="fas fa-paperclip"></i></label>
+                      </div>
+                      <div class="sent">
+                        <button type="button"><i class="fas fa-paper-plane"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
               </div>
             </div>
           </div>
-          <!-- statistics part -->
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="total-sailor-statistics mt-4">
-                <div class="title">
-                  <h4>Statistics</h4>
-                </div>
-                <div class="top-short-summery">
-                  <div class="row">
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item">
-                          <h4>Total Sailor</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="far fa-id-card"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-2">
-                          <h4>Male</h4>
-                          <h3 class="counter">158,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-male"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-3 mb-md-0">
-                          <h4>Female</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-female"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-4">
-                          <h4>Total Gen Form</h4>
-                          <h3><span class="counter">99</span></h3>
-                          <div class="circle">
-                            <i class="far fa-snowflake"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="total-sailor-statistics mt-4">
-                <div class="title">
-                  <h4>Statistics</h4>
-                </div>
-                <div class="top-short-summery">
-                  <div class="row">
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item">
-                          <h4>Pending Genform</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="far fa-id-card"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-2">
-                          <h4>Modified Genform</h4>
-                          <h3 class="counter">158,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-male"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-3 mb-md-0">
-                          <h4>Approved Genform</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-female"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- statistics part -->
-
-          <!-- if need another layout -->
-          <!-- <div class="row">
-            <div class="col-lg-12">
-              <div class="total-sailor-statistics mt-4">
-                <div class="title">
-                  <h4>Statistics</h4>
-                </div>
-                <div class="top-short-summery">
-                  <div class="row">
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item">
-                          <h4>Total Sailor</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="far fa-id-card"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-2">
-                          <h4>Male</h4>
-                          <h3 class="counter">158,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-male"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-3 mb-md-0">
-                          <h4>Female</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-female"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-4">
-                          <h4>Total Gen Form</h4>
-                          <h3><span class="counter">99</span></h3>
-                          <div class="circle">
-                            <i class="far fa-snowflake"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="total-sailor-statistics mt-4">
-                        <div class="title">
-                          <h4>Statistics</h4>
-                        </div>
-                        <div class="top-short-summery">
-                          <div class="row">
-                            <div class="col-lg-3 mb-3">
-                              <a href="" class="d-block w-100">
-                                <div class="summery-item">
-                                  <h4>Pending Genform</h4>
-                                  <h3 class="counter">586,356</h3>
-                                  <div class="circle">
-                                    <i class="far fa-id-card"></i>
-                                  </div>
-                                </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-2">
-                          <h4>Modified Genform</h4>
-                          <h3 class="counter">158,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-male"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <a href="" class="d-block w-100">
-                        <div class="summery-item item-3 mb-md-0">
-                          <h4>Approved Genform</h4>
-                          <h3 class="counter">586,356</h3>
-                          <div class="circle">
-                            <i class="fas fa-female"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-          </div> -->
-          <!-- if need another layout -->
         </div>
       </div>
       <!-- content part end -->
@@ -984,7 +1005,6 @@
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/smooth-scrollbar.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/script.js"></script>
   <!-- script file  end-->
 </body>
